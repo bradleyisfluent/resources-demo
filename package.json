@@ -9,6 +9,7 @@
     "postinstall": "remix setup node"
   },
   "dependencies": {
+    "@babel/core": "^7.16.12",
     "@chakra-ui/icons": "^1.1.1",
     "@chakra-ui/react": "^1.8.1",
     "@chakra-ui/theme": "^1.13.0",
