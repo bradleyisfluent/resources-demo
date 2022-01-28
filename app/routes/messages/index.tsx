@@ -1,6 +1,5 @@
 import { Badge, Box, Image } from '@chakra-ui/react';
-import { Link } from 'react-router-dom';
-import { useLoaderData } from 'remix';
+import { Link, useLoaderData } from 'remix';
 import { getMessages, Message, Thumbnail } from '~/services/messages';
 
 export const loader = () => {
