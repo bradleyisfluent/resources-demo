@@ -27,7 +27,7 @@ const theme = extendTheme({
 });
 
 export const meta: MetaFunction = () => {
-	return { title: 'The C3 Church - Messages' };
+	return { title: 'The C3 Church' };
 };
 
 export default function App() {
@@ -48,7 +48,6 @@ export default function App() {
 						<Header />
 						<Outlet />
 					</VStack>
-
 					<ScrollRestoration />
 					<Scripts />
 					{process.env.NODE_ENV === 'development' && <LiveReload />}

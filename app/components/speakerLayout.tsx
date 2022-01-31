@@ -1,5 +1,5 @@
 import { Image } from '@chakra-ui/react';
-import { Speaker } from '~/services/speakers';
+import { Speaker } from '~/routes/speakers/speakers.types';
 
 export default function SpeakerLayout({ speaker }: { speaker: Speaker }) {
 	return (

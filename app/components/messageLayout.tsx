@@ -1,4 +1,4 @@
-import { Message } from '~/services/messages';
+import { Message } from '~/routes/messages/messages.types';
 import ReactPlayer from 'react-player';
 import Spotify from 'react-spotify-embed';
 import { Link } from 'react-router-dom';
